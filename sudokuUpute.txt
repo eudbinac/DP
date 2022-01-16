@@ -1,0 +1,40 @@
+Upute za igranje SUDOKU igre
+
+PRAVILA IGRE
+
+Sudoku se sastoji od mreže koja čini veliki kvadrat sa 4x4 ili 9x9 polja. Veliki kvadrat 
+se sastoji od 16 ili 81 manjih kvadratića, odnosno polja. Mreža je podijeljena na 4 ili 9
+velikih 2x2 ili 3x3 polja. 
+
+Dostupne su tri razine igre koje se razlikuju po težini:
+ 1 - Tek se ucim igrati Sudoku
+ 2 - Znam igrati Sudoku
+ 3 - Ima li tko bolji od mene
+
+CILJ IGRE
+Igrač treba popuniti sva polja Sudoku mreže brojevima na način da budu zadovoljeni uvjeti:
+1. Ispuniti sva polja brojevima od 1 do 4 (ili od 1 do 9, ovisno o veličini Sudoku mreže). 
+2. Svaki broj se smije pojavit točno 4 (ili 9) puta. 
+3. Jedan broj se smije pojaviti samo jednom u svakom retku i stupcu.
+4. Jedan broj se smije pojaviti samo jednom u svakom manjem odjeljku (kvadratu) od 2x2 
+ili (3x3) polja. 
+
+Kako započeti igru?
+Na samom početku igre potrebno je prije mogućnosti odabira željene razine igre uspješno
+riješiti SUDOKU TRENING IGRU. 
+
+Kako unijeti broj u polje?
+Za unos željenog broja u željeno polje, potrebno je prvo ispravno unijeti oznaku stupca
+u koji želite unijeti broj. Oznaka stupca može imati jednu od vrijednosti 
+[A,B,C,D,E,F,G,H,I]. (Broj stupaca ovisi o veličini Sudoku mreže). Nakon uspješno
+unesene oznake stupca, potrebno je uspješno unijeti vrijednost redka u koji se 
+želi unijeti broj. Oznaka redka može imati vrijednosti [1,2,3,4,5,6,7,8,9]. 
+Nakon uspješno odabranog stupca i redka, potrebno je unijeti broj za odabrano polje. 
+Ako broj zadovoljava ranije navedene uvjete pravila igre, broj će biti uspješno upisan. 
+Ukoliko broj ne zadovoljava uvjete, zatražit će vas ponovan unos redka i stupca te broja.
+
+Kada je uspješno završena jedna igra?
+Jedna igra je uspješno završena kada su sva polja ispunjena brojevima, uvjeti iz pravila
+igre zadovoljena, a Vama se ispisala poruka "[vase_ime] čestitamo, pravi si Sudoku majstor!".
+
+
